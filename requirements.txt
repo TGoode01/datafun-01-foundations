@@ -1,0 +1,24 @@
+# requirements.txt - Project runtime / dev dependencies
+
+pip
+setuptools
+wheel
+
+# Logging
+loguru
+
+# TTS
+pyttsx3
+
+# Jupyter ecosystem
+ipython
+jupyter
+ipykernel
+ipywidgets
+nbdime
+jupyterlab-git
+
+# Visualization / analysis
+matplotlib
+seaborn
+polars
