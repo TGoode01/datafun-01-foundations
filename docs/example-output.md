@@ -80,7 +80,19 @@ uv run python src/datafun_01_foundations/app_yourname.py
     Custom Information:
         Company name: DataFun Analytics
         Employee count: 150
+
         TODO: Add your other global variables below:
+        COURSE_NAME: Final[str] = "Data Analytics Fundamentals"
+COURSE_NUMBER: Final[int] = 608
+COURSE_HOURS_PER_WEEK: Final[float] = 20.0
+ASSUMES_PRIOR_EXPERIENCE: Final[bool] = False
+USES_PROFESSIONAL_PYTHON: Final[bool] = True
+HELPFUL_TRAITS: Final[list[str]] = [
+    "patience",
+    "curiosity",
+    "humor",
+    "tenacity",
+
 
 
 
@@ -93,11 +105,15 @@ uv run python src/datafun_01_foundations/app_yourname.py
     Descriptive Statistics for Snowfall (inches):
         Total snowfall: 22.50 inches
         TODO: Add your count of measurements below:
+           snowfall_inches: list[float] = [2.5, 3.5, 4.5, 5.5, 6.5]
 
         TODO: Add your minimum and maximum snowfall below:
+            minimum: float = min(snowfall_inches) if count > 0 else 0.0
+    maximum: float = max(snowfall_inches) if count > 0 else 0.0
 
         Average snowfall: 4.50 inches
         TODO: Add your standard deviation below:
+        Standard deviation: {std_dev:.2f} inches
 
 
 2026-01-11 17:03:14 | INFO | P01 | END main()..................

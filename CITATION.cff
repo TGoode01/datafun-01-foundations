@@ -16,13 +16,13 @@ version: "0.9.0"
 date-released: "2026-01-11"
 
 authors:
-  - family-names: Case
-    given-names: Denise M.
+  - family-names: Goode
+    given-names: Tamia.
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
 
-repository-code: "https://github.com/denisecase/datafun-01-foundations"
-url: "https://github.com/denisecase/datafun-01-foundations"
+repository-code: "https://github.com/TGoode01/datafun-01-foundations"
+url: "https://github.com/TGoode01/datafun-01-foundations"
 license: MIT
 
 abstract: >
